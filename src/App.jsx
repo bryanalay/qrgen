@@ -20,7 +20,7 @@ function App() {
   }
 
   return (
-    <div className="h-screen grid grid-rows-2 sm:grid-cols-2 font-bold font-serif min-w-[400px]">
+    <div className="h-screen grid grid-rows-2 sm:grid-cols-2 font-bold font-serif ">
       <div className="h-full w-full sm:h-screen bg-slate-100 grid place-content-center gap-6">
         <h1 className='font-bold text-3xl'>Get QR Code:</h1>
         <input
