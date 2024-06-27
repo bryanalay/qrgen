@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import QRComponent from './components/QRComponent'
 import qr from 'qrcode'
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const [data, setData] = useState('')
@@ -39,6 +40,7 @@ function App() {
         </button>
       </div>
       <QRComponent qrCode={qrCode} mostar={mostrar}/>
+      <Analytics/>
     </div>
   )
 }
